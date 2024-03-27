@@ -1,0 +1,44 @@
+---
+import urlImage from '../../assets/cloud.png'
+---
+<section class="bg-[#151626]">
+
+    <div class="container mx-auto px-8 py-24 flex" >
+        <div class="text-white max-w-xl">
+            <div class="font-bold text-5xl ">
+                Transformamos <span class="text-[#7975F5]">ideas</span> innovadoras en <span class="text-[#07D4CC]">experiencias</span> tecnológicas excepcionales
+            </div>
+            <p class="text-[#DBDBDB] py-8">
+                Exploramos las fronteras de la innovación en el mundo de la tecnología de la información. Nuestro enfoque en la consultoría de TI redefine los límites, impulsando el éxito y la eficiencia en cada proyecto.
+            </p>
+            <div class="flex gap-6">
+                <button class="button transition-all btn-purple">
+                    Contactanos
+                </button>
+                <button class="button transition-all btn-outline">
+                    Contactanos
+                </button>
+            </div>
+        </div>
+        <div class="flex-1 flex justify-center ">
+            <img src={urlImage.src} class="max-w-3xl" alt="">
+        </div>
+    </div>
+</section>
+
+<style>
+ 
+    
+    .btn-purple{
+        border: 2px solid #7975F5;
+        background: #7975F5;
+    }
+    .btn-purple:hover{
+        background: #4c49aa;
+        border: 2px solid #4c49aa;
+    }
+    .btn-outline{
+        border: 2px solid #79828D;
+        color: white;
+    }
+</style>

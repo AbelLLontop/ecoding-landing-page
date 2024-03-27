@@ -1,0 +1,115 @@
+---
+import srcDatabase from "../../assets/database.svg";
+import srcArrow from "../../assets/arrow.svg";
+import srcDatabaseTransparent from "../../assets/databsetransparent.png";
+import srcAndroidHead from "../../assets/androidHead.svg";
+import Carrousel from "../Carrousel";
+---
+
+<section class="bg-[#202037] py-20 overflow-hidden">
+  <div class="container mx-auto px-8 text-white text-center">
+    <div class="text-[#7975F5] text-xl font-bold">NUESTROS SERVICIOS</div>
+
+    <p class="text-center text-[#D9D7D7] max-w-screen-md mx-auto my-4 text-lg">
+      En la intersección de datos, consultoría, desarrollo y marketing digital,
+      te ofrecemos un enfoque integral para llevar tu visión más allá de los
+      límites.
+    </p>
+    <div class="flex gap-10 py-12 flex-wrap">
+      <div class="service relative">
+        <img class="absolute right-2" src={srcDatabaseTransparent.src} alt="" />
+
+        <div>
+          <img src={srcDatabase.src} alt="" />
+        </div>
+        <div class="text-2xl font-bold my-2 mb-4">Analitica de Datos</div>
+        <p class="text-lg text-[#D9D7D7] mb-4">
+          Transformamos datos en decisiones inteligentes. Descubre patrones,
+          identifica oportunidades y toma decisiones informadas para impulsar tu
+          negocio hacia el éxito.
+        </p>
+        <div class="flex justify-end">
+          <img src={srcArrow.src} alt="" />
+        </div>
+      </div>
+      <div class="service relative">
+        <img class="absolute right-2" src={srcDatabaseTransparent.src} alt="" />
+
+        <div>
+          <img src={srcDatabase.src} alt="" />
+        </div>
+        <div class="text-2xl font-bold my-2 mb-4">Analitica de Datos</div>
+        <p class="text-lg text-[#D9D7D7] mb-4">
+          Transformamos datos en decisiones inteligentes. Descubre patrones,
+          identifica oportunidades y toma decisiones informadas para impulsar tu
+          negocio hacia el éxito.
+        </p>
+        <div class="flex justify-end">
+          <img src={srcArrow.src} alt="" />
+        </div>
+      </div>
+      <div class="service relative">
+        <img class="absolute right-2" src={srcDatabaseTransparent.src} alt="" />
+
+        <div>
+          <img src={srcDatabase.src} alt="" />
+        </div>
+        <div class="text-2xl font-bold my-2 mb-4">Analitica de Datos</div>
+        <p class="text-lg text-[#D9D7D7] mb-4">
+          Transformamos datos en decisiones inteligentes. Descubre patrones,
+          identifica oportunidades y toma decisiones informadas para impulsar tu
+          negocio hacia el éxito.
+        </p>
+        <div class="flex justify-end">
+          <img src={srcArrow.src} alt="" />
+        </div>
+      </div>
+      <div class="service relative">
+        <img class="absolute right-2" src={srcDatabaseTransparent.src} alt="" />
+
+        <div>
+          <img src={srcDatabase.src} alt="" />
+        </div>
+        <div class="text-2xl font-bold my-2 mb-4">Analitica de Datos</div>
+        <p class="text-lg text-[#D9D7D7] mb-4">
+          Transformamos datos en decisiones inteligentes. Descubre patrones,
+          identifica oportunidades y toma decisiones informadas para impulsar tu
+          negocio hacia el éxito.
+        </p>
+        <div class="flex justify-end">
+          <img src={srcArrow.src} alt="" />
+        </div>
+      </div>
+    
+    </div>
+    <div>
+        <button class="button button-outline transition-all ">VER MAS</button>
+    </div>
+
+    <div class="mt-20">
+        <div class="flex justify-center border-b-2 border-[#343453] mb-16">
+            <img src={srcAndroidHead.src} alt="">
+        </div>
+        
+      </div>
+    </div>
+    <Carrousel client:only="react" />
+
+
+</section>
+
+<style>
+  .service {
+    flex-shrink: 0;
+    width: 28rem;
+    background-image: linear-gradient(to right, #2a283f, #2a283f), url();
+    border-radius: 25px;
+    padding: 2rem;
+    text-align: left;
+  }
+  .button-outline{
+    color:#7975F5;
+    border: 2px solid #7975F5;
+    padding: 1rem 3.6rem;
+  }
+</style>

@@ -1,0 +1,76 @@
+---
+import imageAWS from "../../assets/aws.png";
+import imageGoogleCloud from "../../assets/googleCloud.png";
+import imageMicrosoft from "../../assets/microsoft.png";
+---
+
+<section class="nosotros-gradient py-20">
+  <div class="container mx-auto px-8 text-white text-center">
+    <div class="text-[#7975F5] text-xl font-bold">¿QUE HACEMOS?</div>
+    <div class="text-4xl font-bold py-8">
+      Proponemos y desarrollamos soluciones digitales
+    </div>
+    <p class="text-center text-[#D9D7D7] max-w-screen-md mx-auto">
+      Sumérgete en la revolución tecnológica con nuestra consultoría de TI.
+      Transformamos ideas audaces en experiencias tecnológicas excepcionales,
+      liderando el camino hacia la innovación. Con un enfoque progresivo y
+      soluciones a medida, estamos aquí para impulsar tu empresa hacia un futuro
+      digitalmente optimizado.
+    </p>
+    <div class="flex gap-10 justify-center py-12">
+      <div class="service flex-shrink-0 flex items-center justify-center">
+        <img width="160" class="object-contain" src={imageGoogleCloud.src} alt="" />
+      </div>
+      <div class="service flex-shrink-0 flex items-center justify-center pt-3">
+        <img width="80"class="object-contain" src={imageAWS.src} alt="" />
+      </div>
+      <div class="service flex-shrink-0 flex items-center justify-center">
+        <img width="130" class=" object-contain" src={imageMicrosoft.src} alt="" />
+      </div>
+      <div class="service flex-shrink-0 flex items-center justify-center">
+        <img width="160" class=" object-contain" src={imageGoogleCloud.src} alt="" />
+      </div>
+    </div>
+    <p class="text-[#A1A2A9]/95 italic text-lg text-center max-w-screen-sm mx-auto">
+        "Explora la vanguardia con nosotros: Más allá de la programación, descubre la tecnología con un giro de diversión inesperada."
+    </p>
+  </div>
+</section>
+
+<style>
+  .service {
+    width: 12rem;
+    height: 12rem;
+    background-image: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+      ),
+      radial-gradient(rgba(217, 217, 217, 0.205), rgba(206, 222, 141, 0));
+    border-radius: 30px;
+    box-shadow: 0px 7px 9px -2px rgba(0, 0, 0, 0.377);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+  }
+  .service:hover{
+    transform: scale(.94);
+    
+  }
+  .service img {
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+  }
+  .service:hover img{
+    transform: scale(1.1);
+  }
+  .nosotros-gradient{
+    background: 
+  linear-gradient(to right, rgba(23, 26, 48, 1) 0%, rgba(28, 32, 56, 0.95), rgba(23, 26, 48, 1)); 
+
+
+    
+    
+  }
+</style>
