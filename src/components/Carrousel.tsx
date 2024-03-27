@@ -9,7 +9,7 @@ import './styles.css';
 export default () => {
   const pagination = {
     clickable: true,
-    renderBullet: function (index, className) {
+    renderBullet: function (index:number, className:string) {
       return '<span class="' + className + '">' + (index + 1) + '</span>';
     },
   };
