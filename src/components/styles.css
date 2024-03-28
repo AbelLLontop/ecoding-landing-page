@@ -1,9 +1,9 @@
-.swiper {
+.mySwiper.swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+.mySwiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: transparent;
@@ -17,19 +17,19 @@
   
 }
 
-.swiper-slide img {
+.mySwiper .swiper-slide img {
   display: block;
   width: 100%;
   object-fit: contain;
   border-radius: 20px;
 }
 
-.swiper-pagination-bullets {
+.mySwiper .swiper-pagination-bullets {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 }
-.swiper-pagination-bullet {
+.mySwiper .swiper-pagination-bullet {
   text-align: center;
   line-height: 20px;
   color:white;
@@ -41,7 +41,7 @@ flex-wrap: wrap;
   padding: 1rem;
 }
 
-.swiper-pagination-bullet-active {
+.mySwiper .swiper-pagination-bullet-active {
   color: #fff;
   background: rgba(121, 117, 245, 0.8);
 }
@@ -50,9 +50,14 @@ flex-wrap: wrap;
 /* .swiper-slide-active{
   transform: scale(1.4) !important;
 } */
-.swiper-slide-next{
+.mySwiper .swiper-slide-next{
   opacity: .1;
 }
-.swiper-slide-prev{
+.mySwiper .swiper-slide-prev{
   opacity: .1;
+}
+
+.comment-color{
+  background: rgba(47, 45, 66, 0.5);
+  border-radius: 5px;
 }

@@ -31,7 +31,7 @@ export default () => {
       }}
          
     >
-      <SwiperSlide className='transition-all'>
+      <SwiperSlide className='transition-all mb-16'>
       <img src={srcAnalitica.src} alt="" />
       </SwiperSlide>
       <SwiperSlide className='transition-all'>
