@@ -1,11 +1,14 @@
 ---
 import urlImage from '../../assets/cloud.png'
+import BackgroundSmoke from '../BackgroundSmoke.astro'
 ---
-<section class="bg-[#151626]">
-
-    <div class="container mx-auto px-8 py-24 flex" >
+<section class="bg-[#151626] relative"> 
+    <div  class="absolute left-0 top-0 w-full h-full z-10 -scale-x-100 opacity-30">
+        <BackgroundSmoke/>
+    </div>
+    <div class="container mx-auto px-8 py-24 flex z-40 relative" >
         <div class="text-white max-w-xl">
-            <div class="font-bold text-5xl ">
+            <div class="font-bold text-5xl" data-aos="fade-up">
                 Transformamos <span class="text-[#7975F5]">ideas</span> innovadoras en <span class="text-[#07D4CC]">experiencias</span> tecnológicas excepcionales
             </div>
             <p class="text-[#DBDBDB] py-8">
