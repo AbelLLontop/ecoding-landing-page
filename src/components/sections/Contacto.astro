@@ -1,0 +1,70 @@
+---
+import srcAdorno from "../../assets/adorno.png";
+import srcEcodingfoot from "../../assets/ecodingfoot.png";
+import srcYoutube from "../../assets/youtube.svg";
+import srcLinkedin from "../../assets/linkedin.svg";
+import srcInstagram from "../../assets/instagram.svg";
+---
+
+<section class="bg-[#151626]">
+  <div class="container mx-auto px-8 py-24">
+    <div class="flex pt-4">
+      <div class="text-white flex justify-between w-full items-center px-12">
+        <div class="flex-1">
+          <div class="text-[#7975F5] text-lg font-bold mb-2">CONTACTOS</div>
+          <div class="font-bold text-3xl">
+            <div>mail@ecoding.dev</div>
+            <div>support@ecoding.dev</div>
+          </div>
+        </div>
+        <div
+          class="bg-[#7975F5] relative p-8 pr-40 rounded-[18px] flex-1 max-w-screen-sm"
+        >
+          <div class="text-xl font-bold">Oficina Virtual</div>
+          <div>Chimbote, Perú</div>
+          <div>Lunes a Viernes: 09:00 a. m. - 06:00 p. m.</div>
+          <div>Sabados: 09:00 a. m. - 12:00 p. m</div>
+          <img
+            class="object-contain absolute right-0 bottom-0 w-32"
+            src={srcAdorno.src}
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center border-b-2 border-[#343453] my-16"></div>
+    <div class="flex justify-between px-12">
+      <div>
+        <img class="object-contain max-w-40 mb-2" src={srcEcodingfoot.src} alt="" />
+        <div class="flex gap-2">
+          <img class="object-contain max-w-8" src={srcLinkedin.src} alt="" />
+          <img class="object-contain max-w-8" src={srcYoutube.src} alt="" />
+          <img class="object-contain max-w-8" src={srcInstagram.src} alt="" />
+        </div>
+      </div>
+      <div class="text-white flex flex-1 justify-center gap-20">
+        <div>
+            <div class="text-2xl font-bold mb-8">Informacio legal</div>
+            <ul class="color space-y-2">
+                <li>Politicas de privacidad</li>
+                <li>Terminos y Condiciones</li>
+                <li>Cookies</li>
+            </ul>
+        </div>
+        <div>
+            <div class="text-2xl font-bold mb-8">Nosotros</div>
+            <ul class="color space-y-2">
+                <li>Trabaja con nosotros</li>
+                <li>Blog de desarrollo</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+    .color{
+        color: rgba(202, 202, 202, 0.8);
+    }
+</style>
